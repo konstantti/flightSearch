@@ -11,7 +11,7 @@ public enum AmadeusConnect {
     private Amadeus amadeus;
     private AmadeusConnect() {
         this.amadeus = Amadeus
-            .builder("QKtVpo63QvQJiSFkAcdsOLq7Civ9IbZz", "5G6d3mId5uTNzzap")
+            .builder("", "")
             .build();
     }
     
