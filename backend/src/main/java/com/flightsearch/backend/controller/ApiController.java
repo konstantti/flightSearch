@@ -25,7 +25,7 @@ public class ApiController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello World!";
+        return "Testing";
     }
 
      @GetMapping("/locations")
